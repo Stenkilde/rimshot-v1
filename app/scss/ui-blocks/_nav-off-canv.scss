@@ -1,0 +1,70 @@
+$off-canvas-width-mobile: 270px;
+$off-canvas-width: 360px;
+
+// Navigation part
+%transition{
+	-webkit-transition: -webkit-transform .4s cubic-bezier(.5,.26,.69,.98);
+}
+
+.trigger {
+	color: #fff;
+	font-size: 50px;
+	&:hover {
+		color: #2163c6;
+	}
+}
+
+// canv part ( the body )
+
+.canv{
+	width: 100%;
+	height: 100%;
+
+	position: relative;
+
+	background-color: #0e1528;
+	@extend %transition;
+
+	// Animation
+
+	-webkit-transform: translate(0,0);
+	&.js-is-open{
+		-webkit-transform: translate(-$off-canvas-width,0);
+
+	}
+}// Navigation part
+%transition{
+	-webkit-transition: -webkit-transform .4s cubic-bezier(.5,.26,.69,.98);
+}
+
+
+.nav-off-canv{
+	width: 100%;
+	max-width: $off-canvas-width-mobile;
+	@media #{$medium-up} {
+		max-width: $off-canvas-width;
+	}
+	height: 100%;
+	z-index: 1000;
+	border-top: solid 40px #17458a;
+
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	background-color: #2163c6;
+	@extend %transition;
+
+	// Animation
+
+	-webkit-transform: translate($off-canvas-width,0);
+
+	&.js-is-open{
+		-webkit-transform: translate(0,0);
+
+	}
+}
+	.nav-off-canv-body{
+		width: 100%;
+		height: 100%;
+	}
