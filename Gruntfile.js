@@ -18,7 +18,7 @@ module.exports = function (grunt) {
         yeoman: {
             app: 'app',
             dist: 'dist',
-            ip: '192.168.3.121'
+            ip: '127.0.0.1'
         },
         watch: {
             compass: {

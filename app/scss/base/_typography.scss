@@ -19,8 +19,8 @@
 
 $giga-size:         emCalc(83) !default; // .giga
 
-$h1-size:           emCalc(26) !default; // .alpha
-$h2-size:           emCalc(20) !default; // .beta
+$h1-size:           emCalc(32) !default; // .alpha
+$h2-size:           emCalc(22) !default; // .beta
 $h3-size:           emCalc(18) !default; // .gamma
 $h4-size:           emCalc(16) !default; // .delta
 $h5-size:           emCalc(14) !default; // .epsilon
@@ -30,20 +30,23 @@ html,body{
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-family: $header-font-family;
+    color: #fff;
     .font-secondary {
     	font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
     }
 }
 
-// h1, .alpha {
-//     font-size: $h1-size;
-//     line-height:1;
-// }
+h1, .alpha {
+    font-size: $h1-size;
+    line-height:1;
+    color: #fff;
+}
 
-// h2, .beta {
-//     font-size: $h2-size;
-//     line-height:1;
-// }
+h2, .beta {
+    font-size: $h2-size;
+    line-height:1;
+    color: #fff;
+}
 
 // h3, .gamma {
 //     font-size: $h3-size;

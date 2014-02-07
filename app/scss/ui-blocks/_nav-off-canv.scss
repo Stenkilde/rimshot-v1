@@ -40,6 +40,7 @@ $off-canvas-width: 360px;
 
 .nav-off-canv{
 	width: 100%;
+	padding: 30px;
 	max-width: $off-canvas-width-mobile;
 	@media #{$medium-up} {
 		max-width: $off-canvas-width;
@@ -55,6 +56,27 @@ $off-canvas-width: 360px;
 	background-color: #2163c6;
 	@extend %transition;
 
+
+	.user {
+		margin: 10px 0;
+		position: relative;
+		img {
+			max-width: 80px;
+			max-height: 80px;
+			border-radius: 50%;
+		}
+		a {
+			color: #fff;
+			&:hover {
+				color: tomato;
+			}
+		}
+		small {
+			position: absolute;
+			left: 100px;
+			bottom: 10px;
+		}
+	}
 	// Animation
 
 	-webkit-transform: translate($off-canvas-width,0);
