@@ -19869,13 +19869,21 @@ th.hide-for-touch {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'social';
+  src: url("../fonts/social.eot?87k56q");
+  src: url("../fonts/social.eot?#iefix87k56q") format("embedded-opentype"), url("../fonts/social.woff?87k56q") format("woff"), url("../fonts/social.ttf?87k56q") format("truetype"), url("../fonts/social.svg?87k56q#social") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media -sass-debug-info {
   filename {
     font-family: file\:\/\/C\:\/Users\/Oliver\/Documents\/GitHub\/rimshot-v1\%20\(GitHub\%20for\%20Windows\)\/app\/scss\/base\/_icomoon\.scss;
   }
 
   line {
-    font-family: \0000312;
+    font-family: \0000323;
   }
 }
 
@@ -19899,12 +19907,27 @@ th.hide-for-touch {
   }
 
   line {
-    font-family: \0000326;
+    font-family: \0000337;
   }
 }
 
 .icon-burger:before {
   content: "\e600";
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/Oliver\/Documents\/GitHub\/rimshot-v1\%20\(GitHub\%20for\%20Windows\)\/app\/scss\/base\/_icomoon\.scss;
+  }
+
+  line {
+    font-family: \0000341;
+  }
+}
+
+.icon-twitter:before {
+  font-family: social;
+  content: "\e601";
 }
 
 @media -sass-debug-info {
@@ -20086,6 +20109,7 @@ body {
   line-height: 150%;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: #fff;
+  text-transform: uppercase;
 }
 
 @media -sass-debug-info {
@@ -20094,7 +20118,7 @@ body {
   }
 
   line {
-    font-family: \0000334;
+    font-family: \0000335;
   }
 }
 
@@ -20109,7 +20133,7 @@ body .font-secondary {
   }
 
   line {
-    font-family: \0000339;
+    font-family: \0000340;
   }
 }
 
@@ -20126,7 +20150,7 @@ h1,
   }
 
   line {
-    font-family: \0000345;
+    font-family: \0000346;
   }
 }
 
@@ -20208,6 +20232,52 @@ h2,
 .button {
   color: #fff;
   text-align: right;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/Oliver\/Documents\/GitHub\/rimshot-v1\%20\(GitHub\%20for\%20Windows\)\/app\/scss\/elements\/_button\.scss;
+  }
+
+  line {
+    font-family: \000034;
+  }
+}
+
+.button.twitter {
+  position: relative;
+  padding-left: 50px;
+  line-height: 15px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/Oliver\/Documents\/GitHub\/rimshot-v1\%20\(GitHub\%20for\%20Windows\)\/app\/scss\/elements\/_button\.scss;
+  }
+
+  line {
+    font-family: \000038;
+  }
+}
+
+.button.twitter span {
+  position: absolute;
+  left: 20px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/Oliver\/Documents\/GitHub\/rimshot-v1\%20\(GitHub\%20for\%20Windows\)\/app\/scss\/elements\/_button\.scss;
+  }
+
+  line {
+    font-family: \0000315;
+  }
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
 }
 
 @-webkit-keyframes animate {

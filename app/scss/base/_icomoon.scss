@@ -9,6 +9,17 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'social';
+	src:url('../fonts/social.eot?87k56q');
+	src:url('../fonts/social.eot?#iefix87k56q') format('embedded-opentype'),
+		url('../fonts/social.woff?87k56q') format('woff'),
+		url('../fonts/social.ttf?87k56q') format('truetype'),
+		url('../fonts/social.svg?87k56q#social') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'rimshot';
 	speak: none;
@@ -25,4 +36,9 @@
 
 .icon-burger:before {
 	content: "\e600";
+}
+
+.icon-twitter:before {
+	font-family: social;
+	content: "\e601";
 }
