@@ -13,8 +13,10 @@ $off-canvas-width: 360px;
 		color: #2163c6;
 	}
 	&.js-is-open {
-		position: absolute;
-		right: -75px;
+		@media #{$small-only} {
+			position: absolute;
+			right: -75px;
+		}
 	}
 }
 
@@ -41,7 +43,7 @@ $off-canvas-width: 360px;
 
 .nav-off-canv{
 	width: 100%;
-	padding: 30px;
+	padding: 15px;
 	position: relative;
 	max-width: $off-canvas-width-mobile;
 	@media #{$medium-up} {
@@ -49,7 +51,7 @@ $off-canvas-width: 360px;
 	}
 	height: 100%;
 	z-index: 1000;
-	border-top: solid 40px #17458a;
+	border-top: solid 20px #17458a;
 
 	position: fixed;
 	top: 0;

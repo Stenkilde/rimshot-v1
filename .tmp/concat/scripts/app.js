@@ -180,10 +180,10 @@ $(document).ready(function() {
 	$(document).foundation();
 	$(document).ready(function() {
 		$(".trigger").click(function(){
-			$(".nav-off-canv, .canv").toggleClass("js-is-open");
+			$(".nav-off-canv, .canv, .trigger").toggleClass("js-is-open");
 		});
 	});
-	
+
 	$.ionSound({
 		sounds: [
 		"ba_dumm"

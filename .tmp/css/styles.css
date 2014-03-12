@@ -2640,28 +2640,30 @@ a {
   color: #2163c6;
 }
 
+@media only screen and (max-width: 40em) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/rimshot-v1\/app\/scss\/ui-blocks\/_nav-off-canv\.scss;
+    }
+
+    line {
+      font-family: \0000315;
+    }
+}
+
+  .trigger.js-is-open {
+    position: absolute;
+    right: -75px;
+  }
+}
+
 @media -sass-debug-info {
   filename {
     font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/rimshot-v1\/app\/scss\/ui-blocks\/_nav-off-canv\.scss;
   }
 
   line {
-    font-family: \0000315;
-  }
-}
-
-.trigger.js-is-open {
-  position: absolute;
-  right: -75px;
-}
-
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/oliverstenkilde\/Documents\/rimshot-v1\/app\/scss\/ui-blocks\/_nav-off-canv\.scss;
-  }
-
-  line {
-    font-family: \0000323;
+    font-family: \0000325;
   }
 }
 
@@ -2679,7 +2681,7 @@ a {
   }
 
   line {
-    font-family: \0000335;
+    font-family: \0000337;
   }
 }
 
@@ -2693,18 +2695,18 @@ a {
   }
 
   line {
-    font-family: \0000342;
+    font-family: \0000344;
   }
 }
 
 .nav-off-canv {
   width: 100%;
-  padding: 30px;
+  padding: 15px;
   position: relative;
   max-width: 270px;
   height: 100%;
   z-index: 1000;
-  border-top: solid 40px #17458a;
+  border-top: solid 20px #17458a;
   position: fixed;
   top: 0;
   right: 0;
@@ -2719,7 +2721,7 @@ a {
     }
 
     line {
-      font-family: \0000342;
+      font-family: \0000344;
     }
 }
 
@@ -2734,7 +2736,7 @@ a {
   }
 
   line {
-    font-family: \0000361;
+    font-family: \0000363;
   }
 }
 
@@ -2748,7 +2750,7 @@ a {
   }
 
   line {
-    font-family: \0000365;
+    font-family: \0000367;
   }
 }
 
@@ -2764,7 +2766,7 @@ a {
   }
 
   line {
-    font-family: \0000369;
+    font-family: \0000371;
   }
 }
 
@@ -2781,7 +2783,7 @@ a {
   }
 
   line {
-    font-family: \0000375;
+    font-family: \0000377;
   }
 }
 
@@ -2795,7 +2797,7 @@ a {
   }
 
   line {
-    font-family: \0000377;
+    font-family: \0000379;
   }
 }
 
@@ -2809,7 +2811,7 @@ a {
   }
 
   line {
-    font-family: \0000381;
+    font-family: \0000383;
   }
 }
 
@@ -2827,7 +2829,7 @@ a {
   }
 
   line {
-    font-family: \0000393;
+    font-family: \0000395;
   }
 }
 
@@ -2841,7 +2843,7 @@ a {
   }
 
   line {
-    font-family: \0000398;
+    font-family: \00003100;
   }
 }
 
